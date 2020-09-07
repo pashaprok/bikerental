@@ -48,6 +48,7 @@ export default class NewRent extends Component {
                         <Control.select 
                             model=".type" id="type" name="type"
                             className="form-control">
+                                        <option>please, select a type</option>
                                         <option>Road</option>
                                         <option>Mountain</option>
                                         <option>Cross-country</option>
