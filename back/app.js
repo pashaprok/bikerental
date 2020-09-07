@@ -5,8 +5,9 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 
 const PORT = 3443;
-const DB_CONNECTION = 'mongodb+srv://testappuser2020:testappuser2020@cluster0.o544d.mongodb.net/db?retryWrites=true&w=majority';
 
+//this information is hidden in a real project
+const DB_CONNECTION = 'mongodb+srv://testappuser2020:testappuser2020@cluster0.o544d.mongodb.net/db?retryWrites=true&w=majority';
 
 //imports routes
 const bikesRoute = require('./routes/bikes');

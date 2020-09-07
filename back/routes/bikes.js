@@ -25,7 +25,7 @@ router.route('/')
     });
 
     try {
-        const savedBike = await Bike.save();
+        const savedBike = await bike.save();
         res.statusCode = 200;
         res.setHeader('Content-Type', 'application/json');
         res.json(savedBike);

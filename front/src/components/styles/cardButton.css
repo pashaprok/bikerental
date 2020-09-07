@@ -1,0 +1,51 @@
+@import url('../../stylesvar.css');
+
+.card-button {
+    width: 110px;
+    font-size: 14px;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    color: var(--colorWhite);
+    margin-left: 15px;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s ease;
+}
+.card-button.green {
+    background-color: var(--colorGreen);
+}
+.card-button.blue {
+    background-color: var(--colorBlue);
+}
+.card-button.red {
+    background-color: var(--colorRed);
+}
+
+.card-button.green:hover {
+    background-color: var(--colorGreenSecond);
+}
+.card-button.blue:hover {
+    background-color: var(--colorBlueSecond);
+}
+.card-button.red:hover {
+    background-color: var(--colorRedSecond);
+}
+
+.card-button:active {
+    border: none;
+    transform: scale(0.9);
+}
+
+@media only screen and (max-width: 768px) {
+    .card-button {
+        margin: 0;
+    }
+    .card-button.rented {
+        width: 100%;
+    }
+    .card-button.available {
+        width: 48%;
+    }
+}

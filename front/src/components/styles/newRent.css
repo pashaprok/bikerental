@@ -1,0 +1,71 @@
+@import url('../../stylesvar.css');
+
+.new-rent-wrapper {
+    margin-top: 15px;
+    padding: 20px 25px 25px;
+    background-color: var(--colorSilver);
+    border: 1px solid var(--colorGrey);
+    border-radius: 5px;
+}
+
+.new-rent-wrapper form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.form-group label {
+    color: var(--colorDark);
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    height: 36px;
+    padding: 0 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.invalid-text {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    color: var(--colorRed);
+}
+
+.form-group.price {
+    width: 20%;
+}
+.form-group.type {
+    width: 30%;
+}
+.form-group.name {
+    width: 30%;
+}
+
+@media only screen and (max-width: 768px) {
+    .new-rent-wrapper form {
+        display: flex;
+        flex-direction: column;
+    }
+    .form-group {
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+    .invalid-text {
+        position: relative;
+        bottom: 0;
+    }
+    .form-group>.card-button {
+        margin: 0;
+        width: 100%;
+    }
+}

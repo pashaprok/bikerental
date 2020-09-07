@@ -1,8 +1,11 @@
 :root {
     /* colors */
     --colorGreen: #23ba99;
+    --colorGreenSecond: #1EA386;
     --colorRed: #f4313f;
+    --colorRedSecond: #DF2C39;
     --colorBlue: #3650c7;
+    --colorBlueSecond: #3148B2;
     --colorLight: #f5f5f5;
     --colorSilver: #e9eaee;
     --colorGrey: #d2d2d2;
