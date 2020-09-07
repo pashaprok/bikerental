@@ -15,13 +15,7 @@ in the rented list and the bike will return to the list of available ones.
 The number of available by bike is displayed in the title in brackets. The total cost of renting bicycles is calculated automatically and also displayed in the title.
 All information is stored in a database on the server and loaded when the page is refreshed.
 
-TECHNOLOGIES:
-Frontend:
-ReactJS
-Backend:
-NodeJS and Express
-Database:
-MongoDB
+TECHNOLOGIES: Frontend - ReactJS, Backend - NodeJS and Express, Database - MongoDB.
 
 Start project:
 - download or clone this repository
